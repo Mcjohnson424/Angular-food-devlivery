@@ -1,0 +1,392 @@
+{
+  "users": [
+    {
+      "firstName": "John1",
+      "lastName": "Doe",
+      "login": {
+        "username": "john.doe",
+        "password": "admin1234"
+      },
+      "address": {
+        "housenumber": 123,
+        "streetname": "Summit dr",
+        "state": "NY",
+        "zip": "23032",
+        "city": "NewYork",
+        "country": "US"
+      },
+      "id": 1
+    },
+    {
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "address": {
+        "housenumber": 123,
+        "streetname": "Summit dr",
+        "zip": "23030",
+        "country": "US",
+        "state": "NY",
+        "city": "NewYork"
+      },
+      "login": {
+        "username": "jane.doe",
+        "password": "admin1234"
+      },
+      "id": 2
+    },
+    {
+      "firstName": "Oula",
+      "lastName": "Sawas",
+      "address": {
+        "housenumber": 521,
+        "streetname": "Unkown dr",
+        "zip": "12345",
+        "country": "US",
+        "state": "OH",
+        "city": "Mason"
+      },
+      "login": {
+        "username": "oula.sawas",
+        "password": "1234"
+      },
+      "id": 3
+    },
+    {
+      "id": 4,
+      "firstName": "Anto",
+      "lastName": "Prakash",
+      "address": {
+        "housenumber": 525,
+        "streetname": "Somestreet dr",
+        "zip": "55555",
+        "country": "India",
+        "state": "N/A",
+        "city": "Mumbai"
+      },
+      "login": {
+        "username": "anto.prakash",
+        "password": "1234"
+      }
+    },
+    {
+      "id": 5,
+      "firstName": "David",
+      "lastName": "Beck",
+      "address": {
+        "housenumber": 999,
+        "streetname": "Kamble dr",
+        "zip": "12345",
+        "country": "US",
+        "city": "Cincinnati"
+      },
+      "login": {
+        "username": "david.beck",
+        "password": "admin1234"
+      }
+    },
+    {
+      "firstName": "Amjad",
+      "lastName": "Khaled",
+      "address": {
+        "housenumber": "6133",
+        "streetname": "Palmera Dr",
+        "zip": "45040",
+        "country": "United States",
+        "state": "OH",
+        "city": "Mason"
+      },
+      "login": {
+        "username": "aj.khaled",
+        "password": "1234"
+      },
+      "id": 6
+    },
+    {
+      "login": {
+        "username": "newuser",
+        "password": "1234"
+      },
+      "id": 7
+    },
+    {
+      "firstname": "a",
+      "lastname": "a",
+      "login": {
+        "username": "a",
+        "password": "a"
+      },
+      "address": {},
+      "id": 8
+    },
+    {
+      "firstname": "a",
+      "lastname": "a",
+      "login": {
+        "username": "a",
+        "password": "a"
+      },
+      "address": {},
+      "id": 9
+    }
+  ],
+  "weeklyMenu": [
+    {
+      "id": 1,
+      "dish": "Tikka Masala",
+      "servings": "4",
+      "ingredients": [
+        "olive oil",
+        "chicken",
+        "onion",
+        "cloves garlic",
+        "ginger",
+        "jalapeno",
+        "turmeric",
+        "cumin",
+        "paprika",
+        "masala",
+        "cayenne pepper",
+        "tomatoes",
+        "heavy cream",
+        "Kosher salt",
+        "cilantro",
+        "rice",
+        "naan"
+      ],
+      "price": 5,
+      "pic": "assets/pics/tikka-masala.png"
+    },
+    {
+      "id": 2,
+      "dish": "Truffled Pizza",
+      "ingredients": [
+        "dough",
+        "shiitake mushroom",
+        "cremini mushrooms",
+        "portobello mushrooms",
+        "fontina cheese",
+        "thyme",
+        "truffle oil",
+        "parmesan cheese"
+      ],
+      "price": 5,
+      "pic": "assets/pics/truffled-pizza.png"
+    },
+    {
+      "id": 3,
+      "dish": "Mujadara",
+      "ingredients": [
+        "olive oil",
+        "onion",
+        "rice",
+        "garlic",
+        "lentils",
+        "cumin",
+        "salt"
+      ],
+      "price": 5,
+      "pic": "assets/pics/mujadara.png"
+    },
+    {
+      "id": 4,
+      "dish": "Meat Lover Burger",
+      "ingredients": [
+        "bun",
+        "onion",
+        "ground beef",
+        "special sauce",
+        "bacon"
+      ],
+      "price": 5,
+      "pic": "assets/pics/meat-burger.png"
+    },
+    {
+      "id": 5,
+      "dish": "Salmon with Steamed Veggies",
+      "ingredients": [
+        "salmon",
+        "butter",
+        "broccli",
+        "carrot",
+        "special sauce",
+        "rice"
+      ],
+      "price": 5,
+      "pic": "assets/pics/salmon.png"
+    },
+    {
+      "id": 6,
+      "dish": "Honey Shrimp",
+      "ingredients": [
+        "honey",
+        "butter",
+        "shrimp",
+        "rice",
+        "soy sauce",
+        "sesame oil",
+        "sesame seeds"
+      ],
+      "price": 5,
+      "pic": "assets/pics/honey-shrimp.png"
+    },
+    {
+      "id": 7,
+      "dish": "Veggie Meatballs",
+      "ingredients": [
+        "beyond meat",
+        "olive oil",
+        "mushrooms",
+        "onion",
+        "crumbled bread",
+        "carrot",
+        "flour"
+      ],
+      "tags": [
+        "veg",
+        "nonDairy"
+      ],
+      "price": 5,
+      "pic": "assets/pics/veggie-meatballs.png"
+    },
+    {
+      "id": 8,
+      "dish": "Tacos",
+      "ingredients": [
+        "ground beef",
+        "lettuce",
+        "onion",
+        "taco sauce",
+        "soft tacos",
+        "cheese"
+      ],
+      "price": 5,
+      "pic": "assets/pics/tacos.png"
+    },
+    {
+      "id": 9,
+      "dish": "Veggie Burger",
+      "ingredients": [
+        "beyond meat",
+        "olive oil",
+        "bun",
+        "onion",
+        "lettuce",
+        "tomato",
+        "pickles"
+      ],
+      "price": 5,
+      "pic": "assets/pics/veggie-burger.png"
+    },
+    {
+      "id": 10,
+      "dish": "Lemon Chicken",
+      "ingredients": [
+        "lemon",
+        "chicken",
+        "heavy cream",
+        "onion",
+        "garlic",
+        "maggi",
+        "dill",
+        "rice"
+      ],
+      "price": 5,
+      "pic": "assets/pics/lemon-chicken.png"
+    },
+    {
+      "id": 11,
+      "dish": "Chicken Alfredo",
+      "ingredients": [
+        "chicken",
+        "cheese",
+        "flour",
+        "mushroom",
+        "rice",
+        "milk",
+        "thyme",
+        "rosemary"
+      ],
+      "price": 5,
+      "pic": "assets/pics/chicken-alfredo.png"
+    },
+    {
+      "id": 12,
+      "dish": "Dumplings",
+      "ingredients": [
+        "pork",
+        "sesame oil",
+        "soy sauce",
+        "pepper",
+        "green onion",
+        "mushroom",
+        "carrot",
+        "shrimp",
+        "ginger",
+        "garlic",
+        "red cabbage",
+        "vinegar",
+        "red pepper flake"
+      ],
+      "price": 5,
+      "pic": "assets/pics/dumplings.png"
+    }
+  ],
+  "orders": [
+    {
+      "dishes": [
+        {
+          "order": "Tikka Masala",
+          "total": 5,
+          "servings": "1"
+        }
+      ],
+      "dataPlaced": "2021-09-28T09:07:37.708Z",
+      "status": "Placed",
+      "userId": "1",
+      "total": 5,
+      "id": 1
+    },
+    {
+      "dishes": [
+        {
+          "order": "Tikka Masala",
+          "total": 5,
+          "servings": "1"
+        }
+      ],
+      "dataPlaced": "2021-09-28T09:24:36.998Z",
+      "status": "Placed",
+      "userId": "1",
+      "total": 5,
+      "id": 2
+    },
+    {
+      "dishes": [
+        {
+          "order": "Truffled Pizza",
+          "total": 10,
+          "servings": "2"
+        }
+      ],
+      "dataPlaced": "2021-09-28T09:24:38.581Z",
+      "status": "Placed",
+      "userId": "1",
+      "total": 10,
+      "id": 3
+    },
+    {
+      "dishes": [
+        {
+          "order": "Mujadara",
+          "total": 15,
+          "servings": "3"
+        }
+      ],
+      "dataPlaced": "2021-09-28T09:24:40.371Z",
+      "status": "Placed",
+      "userId": "1",
+      "total": 15,
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+<div class="register-box">
+    <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+        <div class="form-group">
+            <label for="firstname">First Name</label>
+            <input type="text" formControlName="firstname" class="form-control" placeholder="First Name" required>
+            <div *ngIf="g.firstname.invalid && (g.firstname.dirty || g.firstname.touched)" class="alert alert-danger">
+                <div *ngIf="g.firstname.errors?.required">
+                    First name is required.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="lastname">Last Name</label>
+            <input type="text" formControlName="lastname" class="form-control" placeholder="Last Name">
+            <div *ngIf="g.lastname.invalid && (g.lastname.dirty || g.lastname.touched)" class="alert alert-danger">
+                <div *ngIf="g.lastname.errors?.required">
+                    Lat name is required.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" formControlName="username" class="form-control" placeholder="Enter username">
+            <div *ngIf="g.username.invalid && (g.username.dirty || g.username.touched)" class="alert alert-danger">
+                <div *ngIf="g.username.errors?.required">
+                    Username is required.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="username">Password</label>
+            <input type="password" formControlName="password" class="form-control" placeholder="Enter password">
+            <div *ngIf="g.password.invalid && (g.password.dirty || g.password.touched)" class="alert alert-danger">
+                <div *ngIf="g.password.errors?.required">
+                    Password is required.
+                </div>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="repassword">Confirm</label>
+            <input type="password" formControlName="repassword" class="form-control" placeholder="Confirm password">
+            <div *ngIf="g.repassword.invalid && (g.repassword.dirty || g.repassword.touched)" class="alert alert-danger">
+                <div *ngIf="g.repassword.errors?.required">
+                    Confirm password is required.
+                </div>
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+    </form>
+</div>

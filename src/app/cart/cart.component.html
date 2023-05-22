@@ -1,0 +1,16 @@
+<div>
+    <p class="title">Orders in Cart</p>
+    <div class="row">
+        <div *ngFor="let order of orders" class="col-md-12 mb-2">
+            <div *ngFor="let dish of order.dishes" class="mb-2">
+                <span>{{dish.order}}</span>&nbsp;
+                <span>{{dish.total}}</span>&nbsp;
+                <button type="button" class="btn btn-primary" (click)="handleRemove(order, dish)">Remove</button>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <span>Total: {{total}}</span>&nbsp;
+            <button type="button" class="btn btn-primary" (click)="handleConfirm()">Confirm</button>
+        </div>
+    </div>
+</div>
